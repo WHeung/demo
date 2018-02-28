@@ -5,3 +5,9 @@ A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
 
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+```
+pub get // like npm install
+
+pub serve web --port=49285
+```
