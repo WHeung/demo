@@ -9,11 +9,16 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'build.js'
   },
-  mode: 'development',
+  devtool: 'scource-map',
   plugins: [
     new HTMLPlugin({
       template: 'index.html',
       filename: path.resolve(__dirname, 'dist/index.html')
     })
-  ]
+  ],
+  devServer: {
+    port: '8263'
+  },
+  profile: true,
+  cache: false
 }

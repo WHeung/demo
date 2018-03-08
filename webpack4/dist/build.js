@@ -78,7 +78,8 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var app = document.getElementById('app')\napp.style.color = 'red'\n\n//# sourceURL=webpack:///./src/index.js?");
+var app = document.getElementById('app')
+app.style.color = 'red'
 
 /***/ })
 

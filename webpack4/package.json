@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --config webpack.config.js"
+    "dev": "webpack-dev-server --config webpack.config.js --mode development",
+    "pro": "webpack --config webpack.config.js --mode production",
+    "help": "webpack -h"
   },
   "devDependencies": {
     "webpack": "next",
@@ -14,6 +16,7 @@
     "@types/node": "^9.4.6",
     "@types/webpack": "^4.0.0",
     "html-webpack-plugin": "^3.0.6",
-    "ts-node": "^5.0.1"
+    "ts-node": "^5.0.1",
+    "webpack-dev-server": "^3.1.0"
   }
 }
