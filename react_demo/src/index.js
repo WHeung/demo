@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import RouteMap from './routes'
+import App from './views/App.js'
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <div>
+    <App />
+    <RouteMap />
+  </div>
+  , document.getElementById('root'));
+
 registerServiceWorker();
